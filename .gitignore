@@ -1,0 +1,15 @@
+# 创建并写入 .gitignore 文件内容
+# 以下命令在 PowerShell/Bash 中可以直接运行
+echo "
+# Binaries for programs
+*.exe
+*.bin
+# Output files
+main
+christmas-tree
+# Dependency directories
+vendor/
+# IDEs
+.idea/
+.vscode/
+" > .gitignore
